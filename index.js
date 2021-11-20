@@ -1,3 +1,5 @@
+//API KEY = coinrankingb2c724462ca9093fb0b7f399aa6b4eb95e6ee8774e20011b
+
 
 const scaleFactor = 1/20;
 

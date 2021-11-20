@@ -32,6 +32,7 @@ b{
 
 a{
     text-decoration: none;
+
 }
 
 h1{
@@ -61,6 +62,7 @@ nav{
     margin: 0 auto;
     height: 100px;
     padding: 0 20px;
+    text-decoration: none;
 }
 
 .logo-feature{
@@ -162,6 +164,7 @@ nav{
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    z-index: 1;
 }
 
 .dash-link:hover{
@@ -173,7 +176,7 @@ nav{
 /*SHAPES*/
 .shape{
     position: fixed;
-    
+    z-index: -1;
 }
 
 .shape--0{
@@ -213,3 +216,17 @@ nav{
     left: 80vw;
 }
 
+/*Dashboard*/
+
+.dash-nav{
+    text-decoration: none;
+}
+
+.table{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+body{
+    margin: 3;
+}
